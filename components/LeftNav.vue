@@ -29,11 +29,16 @@ export default {}
 <style scoped>
 .dropItem {
   color: #fff;
-  padding-left: 10px;
   font-size: 15px;
   text-align: left;
   letter-spacing: 1.5px;
   opacity: 1;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.65rem 0;
 }
 .leftnav {
   background-color: #007afe;
@@ -47,8 +52,9 @@ export default {}
 }
 
 .togglenav {
-  padding: 30px;
+  padding: 30px 30px 30px 0;
   color: #fff;
+  border-bottom: 1px solid #2268d8;
 }
 
 li.nav-item {
