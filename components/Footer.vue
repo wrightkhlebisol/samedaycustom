@@ -1,14 +1,18 @@
 <template>
   <b-row align-v="end" class="footer">
     <b-col>
-      <b-row>
-        <b-col>
-          Download App
-          <img src="/desktop logo optimized.svg" />
-          <img src="/desktop logo optimized.svg" />
-        </b-col>
-        <b-col></b-col>
-      </b-row>
+      <b-col>
+        <b-row>
+          <p>Download App</p>
+        </b-row>
+        <b-row>
+          <b-col>
+            <img src="/apple.svg" />
+            <img src="/google-play-store.svg" />
+          </b-col>
+          <b-col></b-col>
+        </b-row>
+      </b-col>
     </b-col>
     <b-col>
       <b-row>
@@ -26,7 +30,22 @@
         </b-col>
       </b-row>
     </b-col>
-    <b-col>3 of 3</b-col>
+    <b-col>
+      <b-row>
+        <p>Connect with us</p>
+      </b-row>
+      <b-row>
+        <b-col>
+          <img src="/twitter.svg" />
+        </b-col>
+        <b-col>
+          <img src="/facebook.svg" />
+        </b-col>
+        <b-col>
+          <img src="/instagram.svg" />
+        </b-col>
+      </b-row>
+    </b-col>
   </b-row>
 </template>
 
@@ -37,6 +56,7 @@ export default {}
 <style scoped>
 .footer {
   background-color: #f4f7f6;
+  padding: 80px 10px;
 }
 /* b-card {
   width: 100%;
