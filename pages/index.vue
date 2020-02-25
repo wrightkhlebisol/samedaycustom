@@ -1,5 +1,5 @@
 <template>
-  <b-container-fluid class="bv-example-row">
+  <b-container fluid class="bv-example-row">
     <b-row>
       <LeftNav></LeftNav>
       <b-col cols="10">
@@ -7,7 +7,7 @@
         <Footer></Footer>
       </b-col>
     </b-row>
-  </b-container-fluid>
+  </b-container>
 </template>
 
 <script>
